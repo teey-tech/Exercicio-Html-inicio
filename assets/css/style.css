@@ -42,6 +42,11 @@ nav {
   transition: 0.5s ease-in-out;
 }
 
+.blog-title:hover > .blog-title-color {
+  color: #151313;
+  transition: 0.5s ease-in-out;
+}
+
 .blog-title-color {
   color: #76aa15;
 }
