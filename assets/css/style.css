@@ -181,3 +181,14 @@ footer {
   padding: 2rem;
   color: rgb(14, 13, 13);
 }
+
+footer p a.footer-title {
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+}
+footer p a.footer-title:hover {
+  text-decoration: underline;
+  color: rgb(230, 26, 26);
+  transition: 0.3s ease-in-out;
+}
