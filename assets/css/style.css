@@ -36,6 +36,20 @@ nav {
   color: #151313;
   float: left;
 }
+
+.blog-title:hover {
+  color: #76aa15;
+  transition: 0.5s ease-in-out;
+}
+
+.blog-title-color {
+  color: #76aa15;
+}
+
+.blog-title-color:hover {
+  color: #151313;
+  transition: 0.5s ease-in-out;
+}
 nav ul {
   width: 100%;
   list-style: none;
