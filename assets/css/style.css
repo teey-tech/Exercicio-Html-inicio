@@ -83,20 +83,14 @@ nav a:hover {
 section {
   padding: 3rem;
 }
-#sobreMim {
-  display: flex;
-  flex-direction: column;
-  font-size: 1rem;
-  align-items: center;
-  margin-top: 5rem;
-}
-
+#sobreMim,
 #meuVideo {
   display: flex;
   flex-direction: column;
   font-size: 1rem;
   align-items: center;
   margin-top: 5rem;
+  width: 100%;
 }
 
 .SobreConteudo {
@@ -117,6 +111,11 @@ section {
   text-align: justify;
   font-size: 0.9rem;
   margin-top: 2rem;
+}
+
+.music {
+  width: 90vh;
+  height: 50vh;
 }
 .title {
   font-weight: 600;
@@ -141,14 +140,15 @@ div.input-align {
   margin-top: 1.5rem;
 }
 div.input-positioning {
-  display: inline;
   width: 100%;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
 }
 
 div.input-positioning input {
   border-radius: 0.5rem;
   height: 2vw;
+  width: 27vw;
 }
 
 h1.title-contato {
@@ -159,7 +159,7 @@ div.text-area textarea {
   margin-top: 2rem;
   border: 1px solid #c2f7f7;
   border-radius: 0.5rem;
-  margin-left: 3rem;
+  margin-left: 6rem;
 }
 
 div button.button {
@@ -174,7 +174,7 @@ div button.button {
   font-size: 1rem;
   margin-left: 3rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 65vh;
   transition-duration: 0.6s;
   border-radius: 1rem;
 }
@@ -187,9 +187,13 @@ div button.button:hover {
 
 #endereco {
   display: flex;
-  margin-top: -25rem;
-  width: 46%;
-  margin-left: 40rem;
+  margin-top: -33rem;
+  justify-content: end;
+}
+
+.map {
+  width: 100vh;
+  height: 60vh;
 }
 
 /* footer */
@@ -211,3 +215,17 @@ footer p a.footer-title:hover {
   color: rgb(230, 26, 26);
   transition: 0.3s ease-in-out;
 }
+
+/* @media (max-width: 768px) {
+  .SobreConteudo {
+    flex-direction: column-reverse;
+    width: 48vw;
+  }
+
+  .perfil {
+    width: 30%;
+    height: 30%;
+    border: 3px solid #c2f7f7;
+    border-radius: 0%;
+  }
+} */
