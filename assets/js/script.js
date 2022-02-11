@@ -81,7 +81,7 @@ function validaAssunto() {
     txtAssunto.style.marginTop = '0'
   } else if (assunto.value.length == 0) {
     txtAssunto.style.visibility = 'hidden'
-    txtAssunto.style.marginTop = '-2rem'
+    txtAssunto.style.marginTop = '-1rem'
   } else {
     txtAssunto.innerHTML = 'Assunto Válido'
     txtAssunto.style.color = '#90ee90'
